@@ -3,8 +3,7 @@
 
 + ## Mentor 
 
-### Cristian Moreno a.k.ka [@khriztianmoreno]
-(https://twitter.com/khriztianmoreno)
+### Edward Cifuentes 
 
 ayuda a otros a aprender haciendo a través de artículos, videos y cursos sobre JavaScript, React y la web estatica. el es #MDE en @cloudinary y MVP en @microsoft 
 
