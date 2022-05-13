@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    background-color: #f5f5f2;
+    padding: 40px 10px;
+    border :2px dashed #999;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: #318fc3;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+}
