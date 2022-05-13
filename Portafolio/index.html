@@ -4,28 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
     <link rel="stylesheet" href="css/style.css">
     <title>Portafolio-Edward-Cifuentes</title>
 </head>
 <body>
-    <div id="root">
-        <nav>
-
-        </nav>
-        
-        <main>
-            <header>
-                <div class="image-content">
-                    <img class="img-profile" src="https://i.ibb.co/sPsH4G7/image.png" alt="Profile image" />
+    <nav class="nav">
+        <div class="nav-languaje">
+            <button id="btnDropdown" class="nav-button">English</button>
+            <!-- <img src="img/vector-little-arrow-nav.png" alt="little-arrow"> -->
+            <div class="nav-dropdown-content">
+                <a href="#">English</a>
+                <a href="#">Spanish</a>
+            </div>
+            <div class="nav-circle">
+                <div class="nav-group-circle-line">
+                    <div class="nav-circle-line"></div>
+                    <div class="nav-circle-line"></div>
+                    <div class="nav-circle-line nav-circle-line-little"></div>
                 </div>
-                <div class="description">Hello i´m Edward Cifuentes a FullStack Developer</div>
-            </header>
-        </main>
-
-        <footer>
-
-        </footer>
-
-    </div>
+            </div>
+        </div>
+    </nav>   
+    <main class="main-content">
+        <header class="generl-container presentation">
+            <div class="presentation-division">
+                <div class="img-diagonal-line" ></div>
+                <div class="img-main"></div>
+            </div>
+            <div class="presentataion-division presentation-title">
+                <h1>Hello <img src="img/img-waving-hand.png" alt="waving-hand"><br>I´m Edward Cifuentes <br>a <span class="presentation-underline">FullStack Developer</span></h1>
+                <div class="presentation-sublime"></div>
+                <p>Scroll down <img src="img/vector-little-arrow.png" alt="little-arrow"></p>    
+            </div>
+        </header>
+        <div class="general-container about">
+            <div class="about-title">
+                <h2>About me</h2>
+                <div class="general-line about-line"></div>
+            </div>
+            <div class="about-text-container">
+                <div class="about-text">
+                    <p>I'm currently working as a freelance <strong>fullstack developer</strong> and <strong>UI/UX designer.</strong> I enjoy building web apps using <span class="general-span"><img src="img/logo-tailwindcss-color.png" alt=""> TailwindCSS </span> and <span class="general-span"><img src="img/logo-react-color.png" alt=""> React </span> I'm also an active student in UNISANGIL.</p>
+                </div>
+            </div>
+        </div>
+    </main> 
 </body>
 </html>
