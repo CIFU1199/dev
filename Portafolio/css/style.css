@@ -1,0 +1,11 @@
+header{
+    display: flex;
+}
+
+.image-content{
+    width: 10px;
+}
+
+.img-profile{
+    width: 200px;
+}
