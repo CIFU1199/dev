@@ -169,3 +169,68 @@ div.general-container{
     background-size: 225px 245px;
     border-radius: 30px;
 }
+
+.presentation-title{
+    right: -10px;
+    bottom: 0;
+}
+
+div.presentation-title h1{
+     font-weight: bold;
+     font-size: 30px;
+     line-height: 35px;
+     letter-spacing: -0.01em;
+     font-weight: 700;
+     color: rgba(0, 0,0, 0.8);
+     margin: 20% 0 0 5%;
+}
+div.presentation-title p{
+    margin: 5% 0 0 5%; 
+}
+
+.presentation-subline{
+    position: relative;
+    width: 290px;
+    height: 13px;
+    background-color: rgba(99, 102, 241, 0.8);
+    border-radius: 18px;
+    margin: 0 0 0 5%;
+    bottom:12px;  
+}
+
+/*Main CSS --> About*/
+.about-title{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+}
+
+.about.line{
+    position: relative;
+    margin: 0 3%;
+    top:3em;
+}
+
+.about-text-container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.about-text{
+    width: 75%;
+    margin:auto 0;
+    right: 0;
+}
+
+div.about-text p{
+    font-weight: normal;
+    font-size:15px;
+    line-height: 267.69%;
+
+    letter-spacing: 0.04em;
+    color: rgba(0, 0,0, 0.8);
+}
+
+.about-button-resume{
+    width: 260px;
+}
