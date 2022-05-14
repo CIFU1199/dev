@@ -144,7 +144,7 @@ div.general-container{
     width: 50%;
     height: 300px;
 }
-.img-diagonal-lines{
+.img-diagonal-lines {
     position: absolute;
     width: 165px;
     height: 154px;
@@ -154,8 +154,8 @@ div.general-container{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+  }
 
-}
 .img-main{
     position: absolute;
     background-image: url('../img/image.png');
@@ -234,3 +234,191 @@ div.about-text p{
 .about-button-resume{
     width: 260px;
 }
+
+/*Main CSS --> Projects*/
+
+.project {
+    text-align: center;
+}
+div.project button{
+    margin: 5% 0;
+    width: 139px;
+}
+.project-title{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+}
+
+.project-boxes{
+    width: 90%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img-top{
+    position:absolute;
+    bottom: 1%;
+    right: 1%;
+}
+.project-box{
+    margin:1%;
+    width: 300px;
+    height: 190px;
+    background: #ffffff;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0,0, 0.15);
+    border-radius: 10px;
+    padding: 2%;
+    position: relative;
+}
+div.project-box h3{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+}
+div.project-box p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+
+div.project-box img{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+}
+
+div.project-box a{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    color:#6366f1;
+}
+/*Main css --> Blogs*/
+
+.blog-title{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-line{
+    position: relative;
+    margin: 0 3%;
+    top: 3em;
+}
+
+.blog-boxes{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog-box{
+    margin: 1%;
+    width: 390px;
+    height: 165px;
+    background:#ffffff;
+    padding: 2%;
+    position: relative;
+}
+
+.blog-buttom{
+    width: 151px;
+}
+
+/*main css -->skills*/
+
+.skills{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.skills-title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.skills-img img{
+    margin: 2%;
+}
+
+/*Footer CSS*/
+
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.footer-msj-container{
+    width: 70%;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-msj{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(0,0,0, 0.55);
+}
+.footer-email{
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.footer-subline{
+    width: 494px;
+    height: 16px;
+    background: rgba(22, 98, 245, 0.35);
+    border-radius: 18px;
+    position: relative;
+    bottom: 66px;
+}
+
+.footer-logo-container{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.footer-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #6366f1;
+    align-content: center;
+    top:35px;
+    margin:10% 3%;
+}
+.footer-fb{
+    background-image: url('../img/vector-fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.footer-tw{
+    background-image: url('../img/vector-twitter.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-insta{
+    background-image: url('../img/vector-insta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35px 35px;
+}
+
+
+
+
